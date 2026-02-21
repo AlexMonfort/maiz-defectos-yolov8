@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 9
+names: ['cuerpos_extranos', 'dañado', 'entero', 'no_canjicado', 'no_desgerminado', 'estandar', 'pelicula', 'punto_negro', 'agrietado']
+
+roboflow:
+  workspace: vc-dswyr
+  project: kernel-sliced-phn6g
+  version: 3
+  license: MIT
+  url: https://universe.roboflow.com/vc-dswyr/kernel-sliced-phn6g/dataset/3
